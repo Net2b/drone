@@ -104,12 +104,12 @@ var services = map[string]*image{
 	// postgres
 	"postgres": {
 		Ports: []string{"5432"},
-		Tag:   "bradrydzewski/postgres:9.1",
+		Tag:   "postgres:9.3",
 		Name:  "postgres",
 	},
 	"postgres:9.1": {
 		Ports: []string{"5432"},
-		Tag:   "bradrydzewski/postgres:9.1",
+		Tag:   "postgres:9.3",
 		Name:  "postgres",
 	},
 
