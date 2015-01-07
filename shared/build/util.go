@@ -37,7 +37,7 @@ var defaultServices = map[string]string{
 	"mongodb":       "bradrydzewski/mongodb:2.4",
 	"mysql":         "bradrydzewski/mysql:5.5",
 	"neo4j":         "bradrydzewski/neo4j:1.9",
-	"postgres":      "postgres:9.3",
+	"postgres":      "library/postgres:9.3",
 	"redis":         "bradrydzewski/redis:2.8",
 	"rabbitmq":      "bradrydzewski/rabbitmq:3.2",
 	"riak":          "guillermo/riak:latest",
