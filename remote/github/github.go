@@ -469,7 +469,7 @@ const (
 	DescError   = "oops, something went wrong"
 )
 
-// getStatus is a helper functin that converts a Drone
+// getStatus is a helper function that converts a Drone
 // status to a GitHub status.
 func getStatus(status string) string {
 	switch status {
